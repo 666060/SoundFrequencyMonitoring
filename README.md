@@ -66,10 +66,7 @@ MyAudioProject/
 ---
 
 ## Screenshots / Demo
-
-- Demo video:  
-  [Watch Demo Video]:[(https://github.com/666060/SoundFrequencyMonitoring/blob/main/demo%20(2).mp4)]
-
+[ https://github.com/666060/SoundFrequencyMonitoring/blob/main/Screenshot%202025-12-06%20191240.png ]
 ---
 
 ## How It Works
