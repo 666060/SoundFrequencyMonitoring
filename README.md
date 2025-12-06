@@ -98,6 +98,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 1.(https://www.mdpi.com/3466738)
 2.(https://www.extrica.com/article/21928)
+3.(https://arxiv.org/abs/2403.11037?utm_source=chatgpt.com)
+4.(https://www.mdpi.com/2886958)
 
 ## Contributors
 - [ Fata Nagah ](https://www.linkedin.com/in/fatma-nagah-b437a236b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
