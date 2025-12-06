@@ -100,4 +100,11 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 2. “Vibration Signal Analysis for Intelligent Rotating Machinery Diagnosis and Prognosis” (MDPI, 2024)  
 3. “Vibration and Faults Prediction for Air Blowers – Case Study” (EKB, 2019)
 
+## Contributors
+- [ Fata Nagah ](https://www.linkedin.com/in/fatma-nagah-b437a236b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- [ Hoda Mahmoud ](https://www.linkedin.com/in/hoda-mahmoud-b3327736b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- [ Nesreen Elemairy ](https://www.linkedin.com/in/nesreen-elemairy-a9078635a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- [ Sama Mohammed ](https://www.linkedin.com/in/sama-mohamed-005425357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- [ Fatma Elsaber ](https://www.linkedin.com/in/fatma-elsaber-9ab1b830b?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+- [ Zamzam Ali ](https://www.linkedin.com/in/zamzam-ali-6314b4372?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMtnGzqh3TPiQYCLysbAGTw%3D%3D)
 
