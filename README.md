@@ -96,9 +96,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## References
 
-1. “A Review on Vibration Monitoring Techniques for Predictive Maintenance of Rotating Machinery” (MDPI, 2023)  
-2. “Vibration Signal Analysis for Intelligent Rotating Machinery Diagnosis and Prognosis” (MDPI, 2024)  
-3. “Vibration and Faults Prediction for Air Blowers – Case Study” (EKB, 2019)
+1.(https://www.mdpi.com/3466738)
+2.(https://www.extrica.com/article/21928)
 
 ## Contributors
 - [ Fata Nagah ](https://www.linkedin.com/in/fatma-nagah-b437a236b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
