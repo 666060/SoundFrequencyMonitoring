@@ -3,52 +3,96 @@ Real-time sound frequency monitoring and alert system using MATLAB and Arduino w
 
 ## Introduction
 
-Unexpected machine failures represent a major challenge in industrial environments, often leading to costly downtime, production losses, and expensive repairs. Numerous studies emphasize that a significant percentage of industrial maintenance budgets is consumed by unplanned breakdowns, which usually occur without any early warning. As highlighted by recent research such as “A Review on Vibration Monitoring Techniques for Predictive Maintenance of Rotating Machinery” (MDPI, 2023) and “Vibration Signal Analysis for Intelligent Rotating Machinery Diagnosis and Prognosis” (MDPI, 2024), early detection of abnormal machine behavior has become a crucial requirement for improving reliability and reducing overall maintenance costs.
+Unexpected machine failures represent a major challenge in industrial environments, often leading to costly downtime, production losses, and expensive repairs. Numerous studies emphasize that a significant percentage of industrial maintenance budgets is consumed by unplanned breakdowns, which usually occur without any early warning. Early detection of abnormal machine behavior has become a crucial requirement for improving reliability and reducing overall maintenance costs.
 
-One of the most effective non-invasive methods for early fault detection is vibration and acoustic analysis. According to established studies, machines typically operate within a stable and predictable vibration or sound frequency range. Any deviation from this range often indicates underlying mechanical issues, such as imbalance, bearing wear, misalignment, or loose components. Case studies—such as “Vibration and Faults Prediction for Air Blowers – Case Study” (EKB, 2019)—prove the real-world effectiveness of vibration monitoring in identifying potential failures before they escalate into critical faults.
+This project proposes a simplified machine health monitoring system. A microphone sensor captures the acoustic signature of the machine, and the Arduino microcontroller processes the signal using the Zero-Crossing method to estimate the instantaneous frequency. The system provides visual and audible alerts using LEDs and a buzzer to classify the machine’s condition:
 
-Based on these principles, this project proposes a simplified machine health monitoring system. A microphone sensor captures the acoustic signature of the machine, and the Arduino microcontroller processes the signal using the Zero-Crossing method to estimate the instantaneous frequency. This frequency is then compared with the predefined normal operating range of the machine. The system provides visual and audible alerts using LEDs and a buzzer to classify the machine’s condition:
+- **Green LED:** Frequency within the normal operating range  
+- **Yellow LED:** Minor deviation indicating a slight abnormality  
+- **Red LED + Buzzer:** Critical deviation indicating a potential major fault  
 
-- **Green LED:** Frequency within the normal operating range
-- **Yellow LED:** Minor deviation indicating a slight abnormality
-- **Red LED + Buzzer:** Critical deviation indicating a potential major fault
-
-Additionally, the measured frequency is transmitted to MATLAB for further processing, real-time visualization, filtering, and FFT analysis to enhance diagnostic accuracy.
-
-The proposed system aligns with recent research and predictive maintenance strategies by offering an early-warning mechanism that helps prevent unexpected breakdowns, reduce downtime, and lower maintenance costs.
+Additionally, the measured frequency is transmitted to MATLAB for real-time visualization, filtering, and FFT analysis to enhance diagnostic accuracy.
 
 ---
 
 ## Project Structure
 MyAudioProject/
-│
 ├─ MATLAB/
-│   └─ audio_fft.m
-│   └─ arduino_fft.m
-│
+│ ├─ audio_fft.m
+│ └─ arduino_fft.m
 ├─ Arduino/
-│   └─ audio_leds.ino
-│
+│ └─ audio_leds.ino
 ├─ AudioFiles/
-│   └─ sample.wav
-│
-└─ README.md
+│ └─ sample.wav
+├─ README.md
+├─ LICENSE
+└─ .gitignore
+
+---
+
+## Features
+
+- Real-time sound frequency monitoring  
+- LED and buzzer alerts for abnormal conditions  
+- MATLAB visualization with FFT analysis  
+- Easy integration with Arduino  
+- Lightweight and non-invasive setup  
+
+---
+
+## Hardware & Software Requirements
+
+**Hardware:**  
+- Arduino Uno   
+- Sound Detector sensor  
+- LEDs (Green, Yellow, Red)  
+- Buzzer  
+- Jumper wires & breadboard  
+
+**Software:**  
+- MATLAB   
+- Arduino IDE 
 
 ---
 
 ## Usage
 
-1. **Connect the Arduino** to your PC.  
-2. **Upload the Arduino sketch** (`audio_leds.ino`) using Arduino IDE.  
-3. **Open MATLAB scripts** (`audio_fft.m` or `arduino_fft.m`) and run them.  
-4. **Place the audio files** in the `AudioFiles` folder if needed.  
-5. **Observe real-time monitoring** via MATLAB GUI and LED/buzzer alerts on Arduino.  
+1. Connect the Arduino to your PC.  
+2. Upload the Arduino sketch (`audio_leds.ino`) using Arduino IDE.  
+3. Open MATLAB scripts (`audio_fft.m` or `arduino_fft.m`) and run them.  
+4. Place any audio files in the `AudioFiles` folder if needed.  
+5. Observe real-time monitoring via MATLAB GUI and LED/buzzer alerts on Arduino.  
+
+---
+
+## Screenshots / Demo
+
+
+
+---
+
+## How It Works
+Microphone → Arduino → MATLAB → GUI → LED/Buzzer Alerts
+
+- Microphone captures sound signals from the machine  
+- Arduino processes signals and sends frequency data to MATLAB  
+- MATLAB visualizes time-domain and FFT spectrum  
+- LEDs and buzzer provide real-time alerts  
+
+---
+
+## Future Improvements
+
+- Support multiple Arduino devices simultaneously  
+- Store frequency data for long-term analysis  
+- Alerts via email or mobile notifications  
+- Advanced signal processing algorithms  
 
 ---
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the `LICENSE` file for details.  
 
 ---
 
@@ -57,4 +101,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 1. “A Review on Vibration Monitoring Techniques for Predictive Maintenance of Rotating Machinery” (MDPI, 2023)  
 2. “Vibration Signal Analysis for Intelligent Rotating Machinery Diagnosis and Prognosis” (MDPI, 2024)  
 3. “Vibration and Faults Prediction for Air Blowers – Case Study” (EKB, 2019)
+
 
